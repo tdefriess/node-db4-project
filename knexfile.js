@@ -5,7 +5,7 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './recipes.db3'
+      filename: './data/recipes.db3'
     },
     useNullAsDefault: true,
     migrations: {
